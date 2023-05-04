@@ -1,0 +1,72 @@
+<script type="text/javascript">
+
+    // no return no perameter
+    // var a = parseInt(prompt("Enter triangle side of value A :- "));
+    // var b = parseInt(prompt("Enter triangle side of value B :- "));
+    // var c = parseInt(prompt("Enter triangle side of value C :- "));
+    // var ans = a + b + c;
+    // function check() {
+    //     if (ans == 360) {
+    //          document.write("this is triangle");
+    //     } else {
+    //          document.write("this is not a triangle");
+    //     }
+    // }
+    // check()
+
+    // no return with perameter
+    // var a = parseInt(prompt("Enter triangle side of value A :- "));
+    // var b = parseInt(prompt("Enter triangle side of value B :- "));
+    // var c = parseInt(prompt("Enter triangle side of value C :- "));
+    // var ans = a + b + c;
+    // function check(ans) {
+    //     if (ans == 360) {
+    //          document.write("this is triangle");
+    //     } else {
+    //          document.write("this is not a triangle");
+    //     }
+    // }
+    // check(ans)
+
+    // return with no perameter
+    // var a = parseInt(prompt("Enter triangle side of value A :- "));
+    // var b = parseInt(prompt("Enter triangle side of value B :- "));
+    // var c = parseInt(prompt("Enter triangle side of value C :- "));
+    // var ans = a + b + c;
+    // var l;
+    // function check() {
+    //     if (ans == 360) {
+    //         l = 1;
+    //     } else {
+    //         l = 0;
+    //     }
+    //     return l;
+    // }
+    // check();
+    // if(l==1){
+    //      document.write("this is triangle");
+    // }else{
+    //      document.write("this is not a triangle");
+    // }
+
+    // return with perameter
+    var a = parseInt(prompt("Enter triangle side of value A :- "));
+    var b = parseInt(prompt("Enter triangle side of value B :- "));
+    var c = parseInt(prompt("Enter triangle side of value C :- "));
+    var ans = a + b + c;
+    var l;
+    function check(ans) {
+        if (ans == 360) {
+            l = 1;
+        } else {
+            l = 0;
+        }
+        return l;
+    }
+    var ans = check(ans);
+    if (ans == 1) {
+         document.write("this is triangle");
+    } else {
+         document.write("this is not a triangle");
+    }
+</script>
